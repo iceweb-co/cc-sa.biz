@@ -1,0 +1,109 @@
+{{ define "main"}}
+<header class="block block-inverse text-center block-bb block-bt">
+  <h2 class="block-title">{{ .Title }}</h2>
+  <h5 class="block-subtitle">{{ .Params.subtitle }}</h5>
+</header>
+
+<section class="block block-bb">
+  <div class="container">
+    <!-- Address -->
+    <div class="row">
+      <div class="col-lg-6 offset-lg-3">
+        <div class="iconchunk iconchunk-top iconchunk-accent-1 text-center">
+          <div class="iconchunk-icon">
+            <span class="pe-7s-home icon icon-lg"></span>
+          </div>
+          <div class="iconchunk-content">
+            <p class="mb-h">
+              {{ .Params.address_line1 }}<br/>
+              {{ .Params.address_line2 }}<br/>
+              {{ .Params.zip_code }}<br/>
+              {{ .Params.po_box }}
+            </p>
+
+            <p class="mb-0 mt-2">
+              {{ .Params.work_hours }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Map -->
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2 py-4">
+        <div id="google-map"
+          style="position: relative; overflow: hidden;">
+          <noscript>
+            <img src='{{ "img/map.gif" | relURL }}' />
+          </noscript>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Details -->
+    <div class="row justify-content-center">
+      <div class="col-12 offset-sm-6 offset-md-0 col-md-auto">
+        <div class="iconchunk iconchunk-left iconchunk-accent-1 mb-1">
+          <div class="iconchunk-icon">
+            <span class="pe-7s-call icon icon-lg"></span>
+          </div>
+          <div class="iconchunk-content">
+            Call us at<br>
+            {{ .Params.phone }}
+          </div>
+        </div>
+      </div>
+      <div class="col-12 offset-sm-6 offset-md-0 col-md-auto">
+        <div class="iconchunk iconchunk-left iconchunk-accent-1 mb-1">
+          <div class="iconchunk-icon">
+            <span class="pe-7s-print icon icon-lg"></span>
+          </div>
+          <div class="iconchunk-content">
+            Fax<br>
+            {{ .Params.fax }}
+          </div>
+        </div>
+      </div>
+      <div class="col-12 offset-sm-6 offset-md-0 col-md-auto">
+        <div class="iconchunk iconchunk-left iconchunk-accent-1">
+          <div class="iconchunk-icon">
+            <span class="pe-7s-mail-open icon icon-lg"></span>
+          </div>
+          <div class="iconchunk-content">
+            Write to<br>
+            <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Special Contacts -->
+<section class="block">
+  <div class="container">
+    <div class="block-heading mb-4">
+      <h2 class="block-title">Contacts</h2>
+    </div>
+
+    <div class="row">
+      {{ range $index, $element := .Params.contacts }}
+      <div class="col-md-6 col-xl-4 {{ if eq $index 0 }}offset-xl-2{{ end }}">
+        <div class="box-head box-head-sm box-head-accent-2"></div>
+        <div class="box box-b mb-2">
+          <div class="box-head box-head-sm box-bb">
+            <h3>{{ .name }}</h3>
+            <h5 class="block-subtitle">{{ .title }}</h5>
+          </div>
+          <dl class="box-block">
+            <dt>Email</dt><dd>{{ .email }}</dd>
+            <dt>Phone</dt><dd>{{ .phone }}</dd>
+          </dl>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,31 @@
+/* Some custom styles for the lander example, that do not belong into the Charming framework itself */
+
+.example-block-bg-mainboard {
+  background-image: url('/assets/images/JumbotronBG.png');
+}
+
+.navbar-brand {
+  max-width: 272px;
+}
+
+.team-member {
+  margin-bottom: 3rem;
+}
+
+#google-map {
+  background-color: white;
+}
+
+#google-map noscript img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 100%;
+  width: auto;
+}
+
+@media (max-width: 576px) {
+  .ftr {
+    text-align: center;
+  }
+}

@@ -1,0 +1,46 @@
+<footer id="footer" class="ftr ftr-inverse">
+  <div class="container ftr-columns">
+    <div class="row">
+
+      <div class="col-md-2 offset-md-3 col-sm-4">
+        <h5 class="ftr-column-title">Services</h5>
+        <ul class="ftr-column-list">
+          {{ range where .Site.RegularPages "Section" "service" }}
+            <li><a href="{{ .URL }}">{{ .Title }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <div class="col-md-2 col-sm-4">
+        <h5 class="ftr-column-title">About Us</h5>
+        <ul class="ftr-column-list">
+          {{ range where .Site.RegularPages "Section" "about" }}
+            <li><a href="{{ .URL }}">{{ .Title }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <div class="col-md-2 col-sm-4">
+        <h5 class="ftr-column-title">Social</h5>
+        <ul class="ftr-column-list">
+          <li>
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            <a href="{{ .Site.Params.facebook }}">&nbsp;Facebook</a></li>
+          <li>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <a href="{{ .Site.Params.twitter }}">&nbsp;Twitter</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-lg-6 offset-lg-3 ftr-bt ftr-oneline">
+        {{ .Site.Title }} © {{ now.Format "2006" }} •
+        <a href="https://iceweb.co">Designed &amp; managed by ICE</a>
+      </div>
+    </div>
+  </div>
+</footer>

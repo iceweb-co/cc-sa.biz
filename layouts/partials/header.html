@@ -1,0 +1,67 @@
+<div class="container">
+  <nav class="navbar charming-navbar navbar-toggleable-md navbar-light">
+
+    <button
+      class="navbar-toggler navbar-toggler-right"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbar-nav"
+      aria-controls="navbar-nav"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <a href='{{ "/" | relURL }}' class="navbar-brand mr-5">
+      <img
+        class="navbar-brand-logo"
+        src={{ "img/logo.png" | relURL}}
+        srcset='{{ "img/logo.png" | relURL }} 272w, {{ "img/logo-2x.png" | relURL }} 544w'
+        sizes="264px"
+        alt="CC Logo">
+    </a>
+
+    <div
+      class="navbar-collapse justify-content-md-end collapse"
+      id="navbar-nav">
+      <ul class="navbar-nav charming-mobile-nav">
+
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.main }}
+        {{ if .HasChildren }}
+        <li class="nav-item dropdown{{if $currentPage.HasMenuCurrent "main" . }} active{{end}}">
+          <a href="#"
+            class="nav-link dropdown-toggle"
+            id="navbar-dropdown-menu-link-1"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false">
+            {{ .Pre }}
+            {{ .Name }}
+          </a>
+          <div class="dropdown-menu"
+            aria-labelledby="navbar-dropdown-menu-link-1">
+            {{ range .Children }}
+            <a href="{{.URL}}"
+              class="dropdown-item{{if $currentPage.IsMenuCurrent "main" . }} active{{end}}">
+              {{ .Name }}
+            </a>
+            {{ end }}
+          </div>
+        </li>
+
+        {{else}}
+
+        <li class="nav-item">
+          <a href="{{.URL}}" class="nav-link">
+            {{ .Pre }}
+            {{ .Name }}
+          </a>
+        </li>
+        {{end}}
+      {{end}}
+
+      </ul>
+    </div>
+  </nav>
+</div>

@@ -1,0 +1,34 @@
+{{ define "main" }}
+<!--header class="block block-inverse text-center block-bb block-bt bg-gradient-1">
+  <h2 class="block-title">{{ .Title }}</h2>
+  <h5 class="block-subtitle">Versatile card-like boxes to display</h5>
+</header-->
+<header class="block block-inverse pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+        <div class="box">
+          <div class="box-head box-head-accent-1"></div>
+          <div class="box-block box-block-padded box-bx box-bb box-rounded-0">
+            <h2 class="block-title">{{ .Title }}</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="block pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+        <div class="box">
+          <div class="box-block box-block-padded box-bx box-bb">
+              {{ .Content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+{{ end }}

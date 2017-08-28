@@ -1,0 +1,20 @@
+baseURL = "https://cc-sa.biz"
+languageCode = "en"
+title = "Competitiviness Consultancy"
+defaultContentLanguage = "en"
+enableMissingTranslationPlaceholders = true
+metaDataFormat = "toml"
+# enable this to make all relative URLs relative to content root.
+# Note that this does not affect absolute URLs.
+relativeURLs = false
+canonifyURLs = false
+# Allows you to disable all page types and will render nothing related to 'kind'
+# values = "page", "home", "section", "sitemap", "robotsTXT", "404"
+disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
+# default sitemap configuration map
+# sitemap =
+
+# Social
+[params]
+facebook = "https://www.facebook.com/%D8%A7%D9%84%D8%AA%D9%86%D8%A7%D9%81%D8%B3%D9%8A%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%D8%A9-%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-333265700022444/"
+twitter = "https://twitter.com/C_Consultancy"
