@@ -5,7 +5,7 @@
 
       {{ range where .Site.RegularPages "Section" "service" }}
 
-      <div class="col-xl col-lg-4 col-sm-6 merits-item">
+      <div class="col-md-6 col-lg-auto col-xl merits-item">
         <span class="icon merits-icon {{ .Params.icon }}"></span>
         <h2 class="h5">{{ .Title }}</h2>
         <a href="{{ .URL }}"
@@ -24,21 +24,14 @@
   <div class="container">
     <div class="block-heading">
       {{ .Content }}
-    </div>
 
-    <div class="row justify-content-center">
-      <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4">
-        <div class="box mb-2">
-          <div class="box-head box-head-sm box-head-accent-2"></div>
-          <div class="box-block box-bx box-bb">
-            <h3 style="text-center">CC Brochure</h3>
-            <a class="btn btn-accent-2 btn-lg" href="#">
-              <img src="img/pdf-icon.png" width="48px"/>
-              Download
-            </a>
-          </div>
-        </div>
-      </div>
+      <p class="mt-2">
+        <a class="btn btn-outline-accent-2 btn-icon btn-md"
+          href="{{ .Params.brochure_url  | relURL }}">
+          <span class="icon icon-sm fa fa-file-pdf-o"></span>
+          <span class="btn-icon-label">Download Brochure</span>
+        </a>
+      </p>
     </div>
   </div>
 </section>
