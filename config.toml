@@ -13,6 +13,7 @@ canonifyURLs = false
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 # default sitemap configuration map
 # sitemap =
+enableRobotsTXT = true
 
 # Social
 [params]
