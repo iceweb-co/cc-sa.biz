@@ -1,5 +1,5 @@
 ---
-title: eLibrary
+title: "eLibrary"
 menu:
   main:
     name: "eLibrary"

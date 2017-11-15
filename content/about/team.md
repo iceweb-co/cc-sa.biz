@@ -13,10 +13,6 @@ team:
     title: Managing Director
     photo: team/none
   -
-    name: Dakheel A. Al Zahrani
-    title: Executive Partner
-    photo: team/dakheel
-  -
     name: Nasser Y. Al-Issa
     title: Tourism Consultant
     photo: team/nasser
@@ -36,8 +32,4 @@ team:
     name: Eng. Hisham A. Saab
     title: Marketing Research Consultant
     photo: team/hisham
-  -
-    name: Muhammad Imran Bhatti
-    title: Financial Consultant
-    photo: team/none
 ---

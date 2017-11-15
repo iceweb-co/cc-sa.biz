@@ -1,5 +1,5 @@
 ---
-title: Contact Us
+title: "Contact Us"
 subtitle: "You can contact us using the contact details below"
 type: "contact"
 menu:

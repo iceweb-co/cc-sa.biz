@@ -1,11 +1,11 @@
 ---
-title: Databank
+title: "Databank"
 menu:
   main:
     name: "CC Databank"
     weight: 3
 ---
- With an increasingly competitive and expanding consultancy market, the amount of information needed  by consultancy companies is profound and is considered a crucial assets in order to provide sophisticated consultancy services. Hence CC has developed number of databases that analyze and assess marketing information, gathered continuously from sources inside and outside Competitiveness consultancy. Needless to say that such databases give CC a competitive advantage over other consultancy companies in the local market.
+With an increasingly competitive and expanding consultancy market, the amount of information needed  by consultancy companies is profound and is considered a crucial assets in order to provide sophisticated consultancy services. Hence CC has developed number of databases that analyze and assess marketing information, gathered continuously from sources inside and outside Competitiveness consultancy. Needless to say that such databases give CC a competitive advantage over other consultancy companies in the local market.
 
 ## SMID
 It is a database of more than 900 products, which covers most of market characteristics such as demand and local supply ,lead players, local sales, export sales , growth rate, market shares.
@@ -19,5 +19,5 @@ A database contains statistics on foreign trade, socio-economic indicators such 
 ## GPD
 A comprehensive database  contains  information about  producers, importers, distributors  of different products and services in  KSA and other GCC states.
 
-##  EMREL Library
+## EMREL Library
 Business e-library  contains number of marketing reports and sectoral studies, data sheets for local and international markets.
