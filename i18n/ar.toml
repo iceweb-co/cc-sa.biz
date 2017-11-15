@@ -1,2 +1,23 @@
+[read_more]
+other = "اقراء المزيد"
+
 [download_brochure]
 other = "بروفايل التنافسية"
+
+[map_label]
+other = "أبراج العقارية الجديدة"
+
+[call_us]
+other = "هاتف"
+
+[fax]
+other = "فاكس"
+
+[write_to]
+other = "بريد اليكتروني"
+
+[email]
+other = "بريد اليكتروني"
+
+[phone]
+other = "هاتف"

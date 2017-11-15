@@ -1,0 +1,42 @@
+{{ define "main" }}
+<div class="container">
+  <div class="row">
+    <div class="col-xl-8 offset-xl-2 pb-4 my-8">
+      <div class="box">
+        <div class="box-head box-head-accent-2"></div>
+          <div class="box-block box-b box-bt-0">
+            <h2 class="mb-2">
+              Page not found <span class="text-soft">(Error 404)</span>
+            </h2>
+            <h4>What's going on?</h4>
+            <p>
+              The page or resource you requested can not be found on the server. This can be
+              caused by a mistyped URL, a broken link or if the webmaster
+              has moved or deleted the resource.
+            </p>
+            <h4>What to do now:</h4>
+            <ul>
+              <li>If you've typed in the URL manually, make sure you've spelled it correctly</li>
+              <li>
+                If you think this is a mistake,
+                <a href="mailto:{{ .Site.Params.webmaster }}">
+                  contact the webmaster.
+                </a>
+              </li>
+            </ul>
+          </div>
+      </div>
+
+      <div class="text-center mt-1">
+        <a href='{{ "/" | relLangURL }}' class="mx-1">
+          Home
+        </a>
+        <span class="text-soft">|</span>
+        <a href="mailto:{{ .Site.Params.webmaster }}" class="mx-1">
+          Technical Contact
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

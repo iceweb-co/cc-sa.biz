@@ -7,10 +7,10 @@
 
       <div class="col-md-6 col-lg-auto col-xl merits-item">
         <span class="icon merits-icon {{ .Params.icon }}"></span>
-        <h2 class="h5">{{ .Title }}</h2>
+        <h2 class="h5">{{ .Params.menu.main.name }}</h2>
         <a href="{{ .URL }}"
           class="btn btn-outline-accent-1">
-          Read More
+          {{ i18n "read_more" }}
         </a>
       </div>
 

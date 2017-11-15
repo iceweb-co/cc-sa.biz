@@ -1,2 +1,23 @@
+[read_more]
+other = "Read more"
+
 [download_brochure]
 other = "Download Brochure"
+
+[map_label]
+other = "New Aqaria Towers"
+
+[call_us]
+other = "Call us at"
+
+[fax]
+other = "Fax"
+
+[write_to]
+other = "Write to"
+
+[email]
+other = "Email"
+
+[phone]
+other = "Phone"

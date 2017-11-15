@@ -2,9 +2,7 @@ metaDataFormat = "toml"
 
 
 # Site
-baseURL = "https://cc-sa.biz"
-languageCode = "en"
-title = "Competitiviness Consultancy"
+baseURL = "https://www.competitivenessc.com/"
 # enable this to make all relative URLs relative to content root.
 # Note that this does not affect absolute URLs.
 relativeURLs = false
@@ -16,18 +14,31 @@ disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 # sitemap =
 enableRobotsTXT = true
 
-
-# Social
-[params]
-facebook = "https://www.facebook.com/%D8%A7%D9%84%D8%AA%D9%86%D8%A7%D9%81%D8%B3%D9%8A%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%D8%A9-%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-333265700022444/"
-twitter = "https://twitter.com/C_Consultancy"
-
-
-# i18n
 defaultContentLanguage = "en"
 enableMissingTranslationPlaceholders = true
 defaultContentLanguageInSubdir = true
 
+
+# Params
+[params]
+  webmaster = "support@iceweb.co"
+  facebook = "https://www.facebook.com/%D8%A7%D9%84%D8%AA%D9%86%D8%A7%D9%81%D8%B3%D9%8A%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%D8%A9-%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-333265700022444/"
+  twitter = "https://twitter.com/C_Consultancy"
+
+
+# i18n
 [languages]
 [languages.en]
+  languageCode = "en"
+  dir = "ltr"
+  title = "Competitiviness Consultancy"
+  logo = "img/logo.png"
+  logo2x = "img/logo-2x.png"
+  credits = "Designed & managed by ICE"
 [languages.ar]
+  languageCode = "ar"
+  dir = "rtl"
+  title = "التنافسية للاستشارات"
+  logo = "img/logo.ar.png"
+  logo2x = "img/logo-2x.ar.png"
+  credits = "إدارة و تصميم ICE"

@@ -12,11 +12,11 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <a href='{{ "/" | relURL }}' class="navbar-brand mr-5">
+    <a href='{{ "/" | relLangURL }}' class="navbar-brand mr-5">
       <img
         class="navbar-brand-logo"
         src={{ "img/logo.png" | relURL}}
-        srcset='{{ "img/logo.png" | relURL }} 272w, {{ "img/logo-2x.png" | relURL }} 544w'
+        srcset='{{ .Site.Params.logo | relURL }} 272w, {{ .Site.Params.logo2x | relURL }} 544w'
         sizes="264px"
         alt="CC Logo">
     </a>
