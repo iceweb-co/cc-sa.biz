@@ -3,7 +3,7 @@
     <div class="row">
 
       <div class="col-md-2 offset-md-3 col-sm-4">
-        <h5 class="ftr-column-title">Services</h5>
+        <h5 class="ftr-column-title">{{ i18n "services" }}</h5>
         <ul class="ftr-column-list">
           {{ range where .Site.RegularPages "Section" "service" }}
             <li><a href="{{ .URL }}">{{ .Title }}</a></li>
@@ -12,7 +12,7 @@
       </div>
 
       <div class="col-md-2 col-sm-4">
-        <h5 class="ftr-column-title">About Us</h5>
+        <h5 class="ftr-column-title">{{ i18n "about_us" }}</h5>
         <ul class="ftr-column-list">
           {{ range where .Site.RegularPages "Section" "about" }}
             <li><a href="{{ .URL }}">{{ .Title }}</a></li>
@@ -21,7 +21,7 @@
       </div>
 
       <div class="col-md-2 col-sm-4">
-        <h5 class="ftr-column-title">Social</h5>
+        <h5 class="ftr-column-title">{{ i18n "social" }}</h5>
         <ul class="ftr-column-list">
           <li>
             <i class="fa fa-facebook-official" aria-hidden="true"></i>

@@ -4,20 +4,26 @@ other = "Read more"
 [download_brochure]
 other = "Download Brochure"
 
+[social]
+other = "Social"
+[about_us]
+other = "About us"
+[services]
+other = "Services"
+
 [map_label]
 other = "New Aqaria Towers"
 
 [call_us]
 other = "Call us at"
-
 [fax]
 other = "Fax"
-
 [write_to]
 other = "Write to"
 
+[contacts]
+other = "Contacts"
 [email]
 other = "Email"
-
 [phone]
 other = "Phone"

@@ -4,20 +4,26 @@ other = "اقراء المزيد"
 [download_brochure]
 other = "بروفايل التنافسية"
 
+[social]
+other = "شبكات التواصل"
+[about_us]
+other = "من نحن"
+[services]
+other = "خدماتنا"
+
 [map_label]
 other = "أبراج العقارية الجديدة"
 
 [call_us]
 other = "هاتف"
-
 [fax]
 other = "فاكس"
-
 [write_to]
 other = "بريد اليكتروني"
 
+[contacts]
+other = "جهات الاتصال"
 [email]
 other = "بريد اليكتروني"
-
 [phone]
 other = "هاتف"
