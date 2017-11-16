@@ -12,7 +12,13 @@
 
   <link rel="stylesheet" href='{{ "css/Pe-icon-7-stroke.css" | relURL }}'>
   <link rel="stylesheet" href='{{ "css/font-awesome.min.css" | relURL}}'>
+
+  {{ if eq .Site.Params.dir "rtl" }}
+  <link rel="stylesheet" href='{{ "css/charming.rtl.min.css" | relURL }}'>
+  {{ else }}
   <link rel="stylesheet" href='{{ "css/charming.min.css" | relURL }}'>
+  {{ end }}
+
   <link rel="stylesheet" href='{{ "css/example.css" | relURL }}'>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,900,700,400italic">
 </head>
