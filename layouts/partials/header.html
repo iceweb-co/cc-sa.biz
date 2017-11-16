@@ -1,5 +1,5 @@
 <div class="container">
-  <nav class="navbar charming-navbar navbar-toggleable-md navbar-light">
+  <nav class="navbar charming-navbar navbar-expand-lg navbar-light">
 
     <button
       class="navbar-toggler navbar-toggler-right"
@@ -17,7 +17,7 @@
         class="navbar-brand-logo"
         src={{ "img/logo.png" | relURL}}
         srcset='{{ .Site.Params.logo | relURL }} 272w, {{ .Site.Params.logo2x | relURL }} 544w'
-        sizes="264px"
+        sizes="272px"
         alt="CC Logo">
     </a>
 
@@ -29,6 +29,7 @@
       {{ $currentPage := . }}
       {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
+
         <li class="nav-item dropdown{{if $currentPage.HasMenuCurrent "main" . }} active{{end}}">
           <a href="#"
             class="nav-link dropdown-toggle"
@@ -58,6 +59,7 @@
             {{ .Name }}
           </a>
         </li>
+
         {{end}}
       {{end}}
 
