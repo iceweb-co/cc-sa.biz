@@ -1,6 +1,17 @@
 <div class="container">
   <nav class="navbar charming-navbar navbar-expand-lg navbar-light">
 
+    <div class="language-switcher">
+      {{ if .IsTranslated }}
+        <span>
+          {{ i18n "language" }}:&nbsp;
+          {{ range .Translations }}
+            <a href="{{ .Permalink }}">{{ .Site.Params.languageName }}</a>
+          {{ end}}
+        </span>
+      {{ end }}
+    </div>
+
     <button
       class="navbar-toggler navbar-toggler-right"
       type="button"

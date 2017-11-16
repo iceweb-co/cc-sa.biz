@@ -30,6 +30,7 @@ defaultContentLanguageInSubdir = true
 [languages]
 [languages.en]
   languageCode = "en"
+  languageName = "English"
   dir = "ltr"
   title = "Competitiviness Consultancy"
   logo = "img/logo.png"
@@ -37,6 +38,7 @@ defaultContentLanguageInSubdir = true
   credits = "Designed & managed by ICE"
 [languages.ar]
   languageCode = "ar"
+  languageName = "العربية"
   dir = "rtl"
   title = "التنافسية للاستشارات"
   logo = "img/logo.ar.png"

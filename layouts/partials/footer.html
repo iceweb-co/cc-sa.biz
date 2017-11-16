@@ -15,7 +15,7 @@
         <h5 class="ftr-column-title">{{ i18n "about_us" }}</h5>
         <ul class="ftr-column-list">
           {{ range where .Site.RegularPages "Section" "about" }}
-            <li><a href="{{ .URL }}">{{ .Title }}</a></li>
+            <li><a href="{{ .URL }}">{{ .Params.menu.main.name }}</a></li>
           {{ end }}
         </ul>
       </div>

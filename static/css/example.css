@@ -15,8 +15,65 @@ bdo {
   font-family: monospace;
 }
 
+html[dir="ltr"] .language-switcher { top: 0; right: 0; }
+html[dir="rtl"] .language-switcher { top: 0; left: 0; }
+.language-switcher {
+  position: absolute;
+  text-align: end;
+}
+.language-switcher span {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border-radius: 0 0 1rem 1rem;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.language-switcher a {
+  color: #01e6ff;
+}
+.language-switcher a:hover {
+  color: #1a6781;
+}
+
+.navbar {
+
+}
+
 .navbar-brand {
   max-width: 272px;
+}
+
+.merits-dark, .block-dark {
+  background-color: #004459;
+  background: linear-gradient(to right, #004459, #1a6781);
+}
+
+.merits-dark .merits-item {
+  border-color: #007498;
+}
+
+.btn-outline-accent-2 {
+  border-color: #1a6781;
+}
+.btn-outline-accent-2:hover {
+  color: #fff;
+  background-color: #004459;
+  border-color: #004459;
+}
+
+.box-head-accent-1 {
+  background: linear-gradient(45deg,#01e6ff,#004459);
+  background-color: #01e6ff;
+}
+
+a {
+  color: #1a6781;
+}
+a:hover {
+  color: #004459;
+}
+
+.iconchunk-accent-1 .iconchunk-icon {
+  border-color: #36C3ED;
 }
 
 main h3 {
@@ -41,6 +98,10 @@ main ol > li:nth-child(n+2) > p {
   margin-right: auto;
   max-height: 100%;
   width: auto;
+}
+
+.ftr-dark {
+  background-color: #004459;
 }
 
 @media (max-width: 576px) {
