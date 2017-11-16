@@ -4,6 +4,13 @@
   background-image: url('/assets/images/JumbotronBG.png');
 }
 
+@import url(//fonts.googleapis.com/earlyaccess/notosanskufiarabic.css);
+
+html[lang=ar] body {
+  font-family: 'Noto Sans Kufi Arabic', sans-serif;
+  font-size: 1rem;
+}
+
 .navbar-brand {
   max-width: 272px;
 }
