@@ -11,6 +11,10 @@ other = "من نحن"
 [services]
 other = "خدماتنا"
 
+[unit_number]
+other = "وحدة رقم"
+[po_box]
+other = "ص.ب."
 [map_label]
 other = "أبراج العقارية الجديدة"
 

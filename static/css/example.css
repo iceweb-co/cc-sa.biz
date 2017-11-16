@@ -5,10 +5,14 @@
 }
 
 @import url(//fonts.googleapis.com/earlyaccess/notosanskufiarabic.css);
+@import url(//fonts.googleapis.com/earlyaccess/thabit.css);
 
 html[lang=ar] body {
   font-family: 'Noto Sans Kufi Arabic', sans-serif;
   font-size: 1rem;
+}
+bdo {
+  font-family: monospace;
 }
 
 .navbar-brand {

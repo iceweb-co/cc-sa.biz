@@ -15,10 +15,17 @@
           </div>
           <div class="iconchunk-content">
             <p class="mb-h">
-              {{ .Params.address_line1 }}<br/>
-              {{ .Params.address_line2 }}<br/>
-              {{ .Params.zip_code }}<br/>
-              {{ .Params.po_box }}
+              <bdo dir="ltr">{{ .Params.building_number }}</bdo>&nbsp;
+              {{ .Params.street }}<br/>
+
+              {{ i18n "unit_number" }}&nbsp;
+              <bdo dir="ltr">{{ .Params.unit_number }}</bdo><br/>
+
+              {{ .Params.city }}&nbsp;
+              <bdo dir="ltr">{{ .Params.zip_code }}</bdo><br/>
+
+              {{ i18n "po_box" }}&nbsp;
+              <bdo dir="ltr">{{ .Params.po_box }}</bdo>
             </p>
 
             <p class="mb-0 mt-2">
@@ -51,7 +58,7 @@
           </div>
           <div class="iconchunk-content">
             {{ i18n "call_us" }}<br>
-            {{ .Params.phone }}
+            <bdo dir="ltr">{{ .Params.phone }}</bdi>
           </div>
         </div>
       </div>
@@ -62,7 +69,7 @@
           </div>
           <div class="iconchunk-content">
             {{ i18n "fax" }}<br>
-            {{ .Params.fax }}
+            <bdo dir="ltr">{{ .Params.fax }}</bdo>
           </div>
         </div>
       </div>
@@ -98,8 +105,10 @@
             <h5 class="block-subtitle">{{ .title }}</h5>
           </div>
           <dl class="box-block">
-            <dt>{{ i18n "email" }}</dt><dd>{{ .email }}</dd>
-            <dt>{{ i18n "phone" }}</dt><dd>{{ .phone }}</dd>
+            <dt>{{ i18n "email" }}</dt>
+              <dd>{{ .email }}</dd>
+            <dt>{{ i18n "phone" }}</dt>
+              <dd><bdo dir="ltr">{{ .phone }}</bdo></dd>
           </dl>
         </div>
       </div>

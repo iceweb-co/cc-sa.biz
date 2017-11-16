@@ -6,10 +6,12 @@ menu:
   main:
     name: "Contact Us"
 
-address_line1: 6567 Salah Ad Din Al Ayyubi Rd - Az Zahra
-address_line2: Unit No 6103
-zip_code: Riyadh 12812 - 2305
-po_box: P.O. Box 14600
+building_number: 6567
+unit_number: 6103
+street: Salah Ad Din Al Ayyubi Rd - Az Zahra
+city: Riyadh
+zip_code: 12812 - 2305
+po_box: 14600
 work_hours: You can visit us between SAT-THU from 9 AM to 7 PM
 
 phone: +966 11 291 8700

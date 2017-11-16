@@ -11,6 +11,10 @@ other = "About us"
 [services]
 other = "Services"
 
+[unit_number]
+other = "Unit No."
+[po_box]
+other = "P.O. Box"
 [map_label]
 other = "New Aqaria Towers"
 
