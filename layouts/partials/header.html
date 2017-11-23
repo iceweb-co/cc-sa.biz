@@ -6,7 +6,7 @@
         <span>
           {{ i18n "language" }}:&nbsp;
           {{ range .Translations }}
-            <a href="{{ .Permalink }}">{{ .Site.Params.languageName }}</a>
+            <a href="{{ .Permalink | relURL }}">{{ .Site.Params.languageName }}</a>
           {{ end}}
         </span>
       {{ end }}
