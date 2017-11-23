@@ -11,6 +11,11 @@ html[lang=ar] body {
   font-family: 'Noto Sans Kufi Arabic', sans-serif;
   font-size: 1rem;
 }
+
+html[lang=ar] ol {
+  list-style: arabic-indic;
+}
+
 bdo {
   font-family: monospace;
 }
