@@ -2,7 +2,7 @@ metaDataFormat = "toml"
 
 
 # Site
-baseURL = "https://www.competitivenessc.com/"
+baseURL = "http://www.competitivenessc.com/"
 # enable this to make all relative URLs relative to content root.
 # Note that this does not affect absolute URLs.
 relativeURLs = false
