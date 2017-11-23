@@ -9,8 +9,10 @@ menu:
 
 ---
 
-[Management System](/files/mastering-the-management-system.pdf)
+{{% dir "left" %}}
+  [Management System](/files/mastering-the-management-system.pdf)
 
-[Blue Ocean Strategy](/files/blue-ocean-strategy.pdf)
+  [Blue Ocean Strategy](/files/blue-ocean-strategy.pdf)
 
-[Reinventing Your Business Model](/files/reinventing-your-business-model.pdf)
+  [Reinventing Your Business Model](/files/reinventing-your-business-model.pdf)
+{{% /dir %}}
