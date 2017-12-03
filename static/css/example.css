@@ -19,23 +19,22 @@ html[dir="ltr"] .language-switcher { top: 0; right: 0; }
 html[dir="rtl"] .language-switcher { top: 0; left: 0; }
 .language-switcher {
   position: absolute;
-  text-align: end;
 }
 .language-switcher span {
-  padding: 0.5rem 1rem;
+  display: block;
+  padding: 0.3rem 1rem;
   color: #fff;
   border-radius: 0 0 1rem 1rem;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 68, 89, 0.85);
 }
 .language-switcher a {
   color: #01e6ff;
 }
 .language-switcher a:hover {
-  color: #1a6781;
+  color: #fff;
 }
-
-.navbar {
-
+html[lang=en] .language-switcher a {
+  font-family: 'Cairo', sans-serif;
 }
 
 .navbar-brand {
@@ -49,6 +48,10 @@ html[dir="rtl"] .language-switcher { top: 0; left: 0; }
 
 .merits-dark .merits-item {
   border-color: #007498;
+}
+
+main p, main li {
+  text-align: justify;
 }
 
 .btn-outline-accent-2 {
@@ -108,4 +111,12 @@ main ol > li:nth-child(n+2) > p {
   .ftr {
     text-align: center;
   }
+}
+
+html[lang=ar] main ol, html[lang=ar] main ul {
+  padding-right: 0.75rem;
+}
+
+html[lang=en] main ol, html[lang=en] main ul {
+  padding-left: 0.75rem;
 }
