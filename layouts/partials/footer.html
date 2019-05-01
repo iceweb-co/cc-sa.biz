@@ -5,7 +5,8 @@
       <div class="col-md-2 offset-md-3 col-sm-4">
         <h5 class="ftr-column-title">{{ i18n "services" }}</h5>
         <ul class="ftr-column-list">
-          {{ range where .Site.RegularPages "Section" "service" }}
+          {{ $services := where .Site.RegularPages "Section" "service" }}
+          {{ range sort $services ".Params.menu.main.weight" }}
             <li><a href="{{ .URL }}">{{ .Title }}</a></li>
           {{ end }}
         </ul>
