@@ -7,7 +7,12 @@
 
       <div class="col-md-6 col-lg-auto col-xl merits-item">
         <span class="icon merits-icon {{ .Params.icon }}"></span>
-        <h2 class="h5">{{ .Params.menu.main.name }}</h2>
+        <h2 class="h5">
+          {{ .Params.menu.main.name }}
+          {{ with .Params.badge }}
+            <span class="badge badge-success">{{ . }}</span>
+          {{ end }}
+        </h2>
         <a href="{{ .URL }}"
           class="btn btn-outline-accent-1">
           {{ i18n "read_more" }}

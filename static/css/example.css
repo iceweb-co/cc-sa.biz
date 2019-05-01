@@ -120,3 +120,8 @@ html[lang=ar] main ol, html[lang=ar] main ul {
 html[lang=en] main ol, html[lang=en] main ul {
   padding-left: 0.75rem;
 }
+
+
+html[lang=en] .merits-item .badge {
+  vertical-align: text-bottom;
+}

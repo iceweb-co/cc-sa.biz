@@ -50,6 +50,9 @@
             aria-expanded="false">
             {{ .Pre }}
             {{ .Name }}
+            {{ with .Page.Params.badge }}
+              <span class="badge badge-success">{{ . }}</span>
+            {{ end }}
           </a>
           <div class="dropdown-menu"
             aria-labelledby="navbar-dropdown-menu-link-1">
@@ -57,6 +60,9 @@
             <a href="{{.URL}}"
               class="dropdown-item{{if $currentPage.IsMenuCurrent "main" . }} active{{end}}">
               {{ .Name }}
+              {{ with .Page.Params.badge }}
+                <span class="badge badge-success">{{ . }}</span>
+              {{ end }}
             </a>
             {{ end }}
           </div>
@@ -68,6 +74,9 @@
           <a href="{{.URL}}" class="nav-link">
             {{ .Pre }}
             {{ .Name }}
+            {{ with .Page.Params.badge }}
+              <span class="badge badge-success">{{ . }}</span>
+            {{ end }}
           </a>
         </li>
 
