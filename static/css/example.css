@@ -121,6 +121,9 @@ html[lang=en] main ol, html[lang=en] main ul {
   padding-left: 0.75rem;
 }
 
+.merits .container-fluid {
+  max-width: 1520px;
+}
 
 html[lang=en] .merits-item .badge {
   vertical-align: text-bottom;

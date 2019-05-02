@@ -1,12 +1,13 @@
 {{ define "main" }}
 <section id="merits" class="merits merits-dark text-center block-bb">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row justify-content-center">
 
       {{ $services := where .Site.RegularPages "Section" "service" }}
       {{ range sort $services ".Params.menu.main.weight" }}
 
-      <div class="col-md-6 col-lg-auto col-xl merits-item">
+      <div class="d-flex flex-column justify-content-between
+        col-md-6 col-lg-4 col-xl merits-item">
         <span class="icon merits-icon {{ .Params.icon }}"></span>
         <h2 class="h5">
           {{ .Params.menu.main.name }}
@@ -14,10 +15,12 @@
             <span class="badge badge-success">{{ . }}</span>
           {{ end }}
         </h2>
-        <a href="{{ .URL }}"
+        <div>
+          <a href="{{ .URL }}"
           class="btn btn-outline-accent-1">
-          {{ i18n "read_more" }}
-        </a>
+            {{ i18n "read_more" }}
+          </a>
+        </div>
       </div>
 
       {{ end }}
