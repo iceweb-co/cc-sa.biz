@@ -1,10 +1,10 @@
 ---
-title: "للاتصال بنا"
+title: "اتصل بنا"
 subtitle: "يمكنم التواصل من خلال بيانات التواصل ادناه"
 type: "contact"
 menu:
   main:
-    name: "للاتصال بنا"
+    name: "اتصل بنا"
 
 building_number: ٦٥٦٧
 unit_number: ٦١٠٣
