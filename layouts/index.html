@@ -3,7 +3,8 @@
   <div class="container">
     <div class="row justify-content-center">
 
-      {{ range where .Site.RegularPages "Section" "service" }}
+      {{ $services := where .Site.RegularPages "Section" "service" }}
+      {{ range sort $services ".Params.menu.main.weight" }}
 
       <div class="col-md-6 col-lg-auto col-xl merits-item">
         <span class="icon merits-icon {{ .Params.icon }}"></span>
