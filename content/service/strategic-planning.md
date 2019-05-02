@@ -5,7 +5,7 @@ menu:
   main:
     parent: "service"
     name: "Strategic Planning"
-    weight: 4
+    weight: 50
 ---
 Strategic Planning when undertaken correctly, strategic planning transforms an organization. At CC, we use our depth of experience to develop a customized planning process that will assist you in achieving the desired organizational transformation. We help you answer the following questions:
 

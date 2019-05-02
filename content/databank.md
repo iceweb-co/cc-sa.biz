@@ -3,7 +3,7 @@ title: "Databank"
 menu:
   main:
     name: "CC Databank"
-    weight: 3
+    weight: 30
 ---
 With an increasingly competitive and expanding consultancy market, the amount of information needed  by consultancy companies is profound and is considered a crucial assets in order to provide sophisticated consultancy services. Hence CC has developed number of databases that analyze and assess marketing information, gathered continuously from sources inside and outside Competitiveness consultancy. Needless to say that such databases give CC a competitive advantage over other consultancy companies in the local market.
 

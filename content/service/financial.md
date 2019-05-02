@@ -5,7 +5,7 @@ menu:
   main:
     parent: "service"
     name: "Financial Consultancy"
-    weight: 1
+    weight: 10
 ---
 Finance is the lifeblood of organizations without this business is like a body in comma. we assess financial needs of your businesses and devise the strategy of financial leverage by bridging up the gaps through external sources; banks etc. Further to this we manage the risk, monitor enterprise performance and achieve financial excellence throughout your organization. Some key financial services that we provide are as follows:
 

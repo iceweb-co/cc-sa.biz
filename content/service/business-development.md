@@ -5,7 +5,7 @@ menu:
   main:
     parent: "service"
     name: "Business Development"
-    weight: 2
+    weight: 30
 ---
 At CC we recognize that each business is unique in its offering, management style and level of growth, therefore, our services are customized to meet the needs and requirements of each distinct business.
 

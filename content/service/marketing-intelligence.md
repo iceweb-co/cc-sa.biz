@@ -5,7 +5,7 @@ menu:
   main:
     parent: "service"
     name: "Marketing Intelligence"
-    weight: 1
+    weight: 20
 ---
 Marketing Intelligence is a full-service research company that delivers insights for success. Our team of skilled experts in market research has a thorough knowledge of marketing strategy and a deep understanding of customer psychology. Add to that our ability to make the complex easy to understand and you’ll have the information you need to make effective and successful communication and marketing decisions.
 

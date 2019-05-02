@@ -5,7 +5,7 @@ menu:
   main:
     parent: "service"
     name: "Feasibility Studies"
-    weight: 3
+    weight: 40
 ---
 CC has a wide experience in developing feasibility studies to assess the financial and economic viability of establishing projects in various fields. We have provided numerous studies for leading corporate and national organizations in different fields. We not only provide thorough and comprehensive feasibility studies, but also we offer specialized economic consulting. We have already implemented many projects with high feasibility by integrated, specialized team in the following areas:
 
