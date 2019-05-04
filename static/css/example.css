@@ -121,10 +121,32 @@ html[lang=en] main ol, html[lang=en] main ul {
   padding-left: 0.75rem;
 }
 
+.course-hero-bg {
+  background-image: url('../img/sipbs.jpg');
+  background-size: cover;
+  background-position: 50% 35%;
+}
+
 .merits .container-fluid {
   max-width: 1520px;
 }
 
 html[lang=en] .merits-item .badge {
   vertical-align: text-bottom;
+}
+
+.stretched-link::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: auto;
+  content: "";
+  background-color: rgba(0,0,0,0);
+}
+
+main.course .list-group-item {
+  background-color: rgba(0,0,0,0);
 }

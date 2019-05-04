@@ -1,0 +1,119 @@
+{{ define "main" }}
+<header class="block block-dark pb-0 course-hero-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+        <div class="box">
+          <div class="box-head box-head-accent-2"></div>
+          <div class="box-block box-block-padded box-bx box-bb box-rounded-0">
+            <h2 class="block-title">{{ .Title }}</h2>
+            {{ with .Params.subtitle }}
+              <p class="block-subtitle h4">{{ . }}</p>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="block pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+        <div class="box">
+          <div class="box-block box-block-padded box-bx box-bb">
+            {{ .Content }}
+
+            <h3>{{ T "details" }}</h3>
+            <div class="skill mb-2">
+              <div class="skill-icon text-accent-1">
+                <span class="pe-7s-users icon icon-xl"></span>
+              </div>
+              <div class="skill-description">
+                <h6>{{ T "student_numbers" }}</h6>
+                <p>{{ .Params.seats }}</p>
+              </div>
+            </div>
+
+            <div class="skill mb-2">
+              <div class="skill-icon text-accent-1">
+                <span class="pe-7s-cash icon icon-xl"></span>
+              </div>
+              <div class="skill-description">
+                <h6>{{ T "cost" }}</h6>
+                <p class="">{{ .Params.length }}<br>
+                  <span class="box-price-subscript">({{ T "vat_exclusive" }})
+                  </span><br>
+                  <span class="box-price text-left pt-0">
+                    {{ .Params.price }}
+                    <span class="box-price-superscript">{{ T "sar" }}</span>
+                  </span>
+                </p>
+              </div>
+            </div>
+
+            <div class="skill mb-2">
+              <div class="skill-icon text-accent-1">
+                <span class="pe-7s-date icon icon-xl"></span>
+              </div>
+              <div class="skill-description">
+                <h6>{{ T "course_schedule" }}</h6>
+                <p>{{ .Params.schedule }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="container-fluid my-6">
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
+        <div class="block-heading">
+          <h2 class="block-title">
+            {{ T "programme" }}
+          </h2>
+        </div>
+        <div class="box box-b">
+          <table class="box-table table table-course">
+            <thead class="">
+              <th>{{ T "day" }}</th>
+              <th>{{ T "morning_sessions" }}</th>
+              <th>{{ T "afternoon_sessions" }}</th>
+              </tr>
+            </thead>
+            <tbody>
+            {{ $url := "/schedule.csv" }}
+            {{ $sep := "," }}
+            {{ range $i, $r := getCSV $sep $url }}
+              <tr>
+                <th scope="row">{{ T (lower (index $r 0)) }}</th>
+                <td>{{ index $r 1 }}</td>
+                <td>{{ index $r 2 }}</td>
+              </tr>
+            {{ end }}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="">
+    <div class="container">
+      <div class="block-heading">
+        <h2 class="block-title">{{ T "registration" }}</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <div class="call-us mb-1 px-lg-3">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfPqaNto8TwJfMc4e062w0o7fFuP0NwQmEAEE0Vl19D90rnqQ/viewform?embedded=true  " width="100%" height="1168" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+{{ end }}

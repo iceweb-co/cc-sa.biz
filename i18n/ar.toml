@@ -34,3 +34,44 @@ other = "جهات الاتصال"
 other = "بريد اليكتروني"
 [phone]
 other = "هاتف"
+
+[current_courses]
+other = "الدورات الحالية"
+[course]
+other = "دورة"
+[details]
+other = "التفاصيل"
+[student_numbers]
+other = "عدد المقاعد"
+[cost]
+other = "السعر"
+[sar]
+other = "﷼‎"
+[course_schedule]
+other = "جدول الدورة"
+[vat_exclusive]
+other = "غير شامل ضريبة القيمة المضافة"
+[registration]
+other = "التسجبل"
+[programme]
+other = "برنامج الدورة"
+
+[day]
+other = "اليوم"
+[morning_sessions]
+other = "الفترة الصباحية"
+[afternoon_sessions]
+other = "الفترة المسائية"
+
+[monday]
+other = "الاثنين"
+[tuesday]
+other = "الثلاثاء"
+[wednesday]
+other = "الاربعاء"
+[thursday]
+other = "الخميس"
+[friday]
+other = "الجمعة"
+[saterday]
+other = "السبت"

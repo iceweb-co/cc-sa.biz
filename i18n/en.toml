@@ -34,3 +34,44 @@ other = "Contacts"
 other = "Email"
 [phone]
 other = "Phone"
+
+[current_courses]
+other = "Current courses"
+[course]
+other = "course"
+[details]
+other = "Details"
+[student_numbers]
+other = "Student numbers"
+[cost]
+other = "Cost"
+[sar]
+other = "SAR"
+[course_schedule]
+other = "Course schedule"
+[vat_exclusive]
+other = "VAT exclusive"
+[registration]
+other = "Registration"
+[programme]
+other = "Course outline"
+
+[day]
+other = "Day"
+[morning_sessions]
+other = "Morning sessions"
+[afternoon_sessions]
+other = "Afternoon sessions"
+
+[monday]
+other = "Monday"
+[tuesday]
+other = "Tuesday"
+[wednesday]
+other = "Wednesday"
+[thursday]
+other = "Thursday"
+[friday]
+other = "Friday"
+[saterday]
+other = "Saterday"
