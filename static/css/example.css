@@ -113,11 +113,11 @@ main ol > li:nth-child(n+2) > p {
   }
 }
 
-html[lang=ar] main ol, html[lang=ar] main ul {
+html[lang=ar] main.default ol, html[lang=ar] main.default ul {
   padding-right: 0.75rem;
 }
 
-html[lang=en] main ol, html[lang=en] main ul {
+html[lang=en] main.default ol, html[lang=en] main.default ul {
   padding-left: 0.75rem;
 }
 
