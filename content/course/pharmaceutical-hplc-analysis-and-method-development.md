@@ -5,7 +5,6 @@ price: 28,000
 seats: >
   Places on this course are limited to 20 students and so early
   registration is essential.
-schedule: ""
 start_date: 14 October, 2019
 end_date: 28 October, 2019
 length: two-week course
