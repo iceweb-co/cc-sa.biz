@@ -51,6 +51,10 @@ other = "﷼‎"
 other = "جدول الدورة"
 [vat_exclusive]
 other = "غير شامل ضريبة القيمة المضافة"
+[start]
+other = "البداية"
+[end]
+other = "النهاية"
 [registration]
 other = "التسجبل"
 [programme]

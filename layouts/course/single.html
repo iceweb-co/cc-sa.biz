@@ -59,7 +59,18 @@
               </div>
               <div class="skill-description">
                 <h6>{{ T "course_schedule" }}</h6>
-                <p>{{ .Params.schedule }}</p>
+                <table class="table table-sm">
+                  <tbody>
+                    <tr>
+                      <th scope="row">{{ T "start" }}</th>
+                      <td>{{ .Params.start_date }}</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">{{ T "end" }}</th>
+                      <td>{{ .Params.end_date }}</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
@@ -109,7 +120,7 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <div class="call-us mb-1 px-lg-3">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfPqaNto8TwJfMc4e062w0o7fFuP0NwQmEAEE0Vl19D90rnqQ/viewform?embedded=true  " width="100%" height="1168" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfPqaNto8TwJfMc4e062w0o7fFuP0NwQmEAEE0Vl19D90rnqQ/viewform?embedded=true&hl={{ .Site.LanguageCode }}" width="100%" height="1168" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
           </div>
         </div>
       </div>
