@@ -73,40 +73,44 @@
                 </table>
               </div>
             </div>
+
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <section class="container-fluid my-6">
-    <div class="row">
-      <div class="col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
-        <div class="block-heading">
-          <h2 class="block-title">
-            {{ T "programme" }}
-          </h2>
-        </div>
-        <div class="box box-b">
-          <table class="box-table table table-course">
-            <thead class="">
-              <th>{{ T "day" }}</th>
-              <th>{{ T "morning_sessions" }}</th>
-              <th>{{ T "afternoon_sessions" }}</th>
-              </tr>
-            </thead>
-            <tbody>
-            {{ $url := "/schedule.csv" }}
-            {{ $sep := "," }}
-            {{ range $i, $r := getCSV $sep $url }}
-              <tr>
-                <th scope="row">{{ T (lower (index $r 0)) }}</th>
-                <td>{{ index $r 1 }}</td>
-                <td>{{ index $r 2 }}</td>
-              </tr>
-            {{ end }}
-            </tbody>
-          </table>
+  <section class="block block-bb block-bt block-accent-1 my-6 pb-6">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="block-heading">
+            <h2 class="block-title">
+              {{ T "programme" }}
+            </h2>
+          </div>
+          <div class="box box-b">
+            <table class="box-table table table-course">
+              <thead class="thead-light">
+                <tr class="">
+                  <th class="h4">{{ T "day" }}</th>
+                  <th class="h4">{{ T "morning_sessions" }}</th>
+                  <th class="h4">{{ T "afternoon_sessions" }}</th>
+                </tr>
+              </thead>
+              <tbody>
+              {{ $url := "/schedule.csv" }}
+              {{ $sep := "," }}
+              {{ range $i, $r := getCSV $sep $url }}
+                <tr>
+                  <th scope="row">{{ T (lower (index $r 0)) }}</th>
+                  <td>{{ index $r 1 }}</td>
+                  <td>{{ index $r 2 }}</td>
+                </tr>
+              {{ end }}
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
     </div>
