@@ -8,5 +8,6 @@ seats: >
 start_date: 14 October, 2019
 end_date: 28 October, 2019
 length: two-week course
+location: The University of Strathclyde in Glasgow, Scotland
 ---
 This course is delivered over two weeks. The first week focuses on HPLC analysis and provides a theoretical framework for many common LC techniques, from the fundamental chemistry behind chromatography and statistics, to their use in a practical setting. The second week builds upon the first week (and any previous experience of HPLC the delegates have) by focusing on the theory of chromatographic separation, analytical validation and the development of new LC methods.

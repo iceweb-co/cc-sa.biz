@@ -25,17 +25,31 @@
           <div class="box-block box-block-padded box-bx box-bb">
             <div class="text-justify">{{ .Content }}</div>
 
-            <h3>{{ T "details" }}</h3>
+            <h3 class="mb-2">{{ T "details" }}</h3>
+
+            <!-- Location -->
+            <div class="skill mb-2">
+              <div class="skill-icon text-accent-1">
+                <span class="pe-7s-map-marker icon icon-xl"></span>
+              </div>
+              <div class="skill-description">
+                <h6>{{ T "location" }}</h6>
+                <span>{{ .Params.location }}</span>
+              </div>
+            </div>
+
+            <!-- Number of seats -->
             <div class="skill mb-2">
               <div class="skill-icon text-accent-1">
                 <span class="pe-7s-users icon icon-xl"></span>
               </div>
               <div class="skill-description">
                 <h6>{{ T "student_numbers" }}</h6>
-                <p>{{ .Params.seats }}</p>
+                <span>{{ .Params.seats }}</span>
               </div>
             </div>
 
+            <!-- Cost -->
             <div class="skill mb-2">
               <div class="skill-icon text-accent-1">
                 <span class="pe-7s-cash icon icon-xl"></span>
@@ -53,6 +67,7 @@
               </div>
             </div>
 
+            <!-- Schedule -->
             <div class="skill mb-2">
               <div class="skill-icon text-accent-1">
                 <span class="pe-7s-date icon icon-xl"></span>
