@@ -55,6 +55,8 @@ other = "غير شامل ضريبة القيمة المضافة"
 other = "البداية"
 [end]
 other = "النهاية"
+[location]
+other = "المكان"
 [registration]
 other = "التسجبل"
 [programme]

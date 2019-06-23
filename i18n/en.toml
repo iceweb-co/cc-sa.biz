@@ -55,6 +55,8 @@ other = "VAT exclusive"
 other = "Start"
 [end]
 other = "End"
+[location]
+other = "Location"
 [registration]
 other = "Registration"
 [programme]
