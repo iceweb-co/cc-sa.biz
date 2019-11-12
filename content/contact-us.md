@@ -7,12 +7,12 @@ menu:
     name: "Contact Us"
 
 building_number: 6567
-unit_number: 6103
+unit_number: 1303
 street: Salah Ad Din Al Ayyubi Rd - Az Zahra
 city: Riyadh
 zip_code: 12812 - 2305
 po_box: 14600
-work_hours: You can visit us between SAT-THU from 9 AM to 7 PM
+work_hours: You can visit us between SAT-THU from 9 AM to 5:30 PM
 
 phone: +966 11 291 8700
 fax: +966 11 291 8600
