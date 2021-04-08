@@ -6,11 +6,11 @@ menu:
   main:
     name: "اتصل بنا"
 
-building_number: ٦٥٦٧
-unit_number: ١٣٠٣
-street: طريق صلاح الدين الايوبي - الزهراء
+building_number: ٦۳۷٤
+unit_number: ٥۰۹
+street: عبدالعزيز بن سليمان المقيرن - المربع
 city: الرياض
-zip_code: ١٢٨١٢ - ٢٣٠٥
+zip_code: ۱۲٦۲٦ - ۲۸۱٦
 po_box: ١٤٦٠٠
 work_hours: يمكنك زيارتنا من السبت الى الخميس بين ٩ صباحاً و ٥:٣٠ مساء
 

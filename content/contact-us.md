@@ -6,11 +6,11 @@ menu:
   main:
     name: "Contact Us"
 
-building_number: 6567
-unit_number: 1303
-street: Salah Ad Din Al Ayyubi Rd - Az Zahra
+building_number: 6374
+unit_number: 509
+street: Abdulaziz Bin Suliman Al Muqerin - Al Murabba
 city: Riyadh
-zip_code: 12812 - 2305
+zip_code: 12626 - 2816
 po_box: 14600
 work_hours: You can visit us between SAT-THU from 9 AM to 5:30 PM
 
