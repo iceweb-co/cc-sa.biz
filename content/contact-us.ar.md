@@ -8,7 +8,7 @@ menu:
 
 building_number: ٦۳۷٤
 unit_number: ٥۰۹
-street: عبدالعزيز بن سليمان المقيرن - المربع
+street: صلاح الدين الايوبي - الضباط
 city: الرياض
 zip_code: ۱۲٦۲٦ - ۲۸۱٦
 po_box: ١٤٦٠٠
