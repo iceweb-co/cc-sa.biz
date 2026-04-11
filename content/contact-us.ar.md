@@ -6,8 +6,8 @@ menu:
   main:
     name: "اتصل بنا"
 
-building_number: ٦۳۷٤
-unit_number: ٥۰۹
+building_number: 8714
+unit_number: 9
 street: صلاح الدين الايوبي - الضباط
 city: الرياض
 zip_code: ۱۲٦۲٦ - ۲۸۱٦
