@@ -1,5 +1,5 @@
 ---
-title: "Contact Us".
+title: "Contact Us"
 subtitle: "You can contact us using the contact details below"
 type: "contact"
 menu:
@@ -7,7 +7,7 @@ menu:
     name: "Contact Us"
 
 building_number: 8714
-unit_number: 9
+unit_number: 9.
 street: Salahudine Al Ayoubi - Al Dubbat
 city: Riyadh
 zip_code: 12623 - 2816
