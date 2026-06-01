@@ -10,7 +10,7 @@ building_number: 8714
 unit_number: 9 
 street: Salahudine Al Ayoubi - Al Dubbat
 city: Riyadh
-zip_code: 12623 - 2816
+zip_code: 12623 - 4399
 po_box: 14600
 work_hours: You can visit us between SAT-THU from 9 AM to 5:30 PM
 
