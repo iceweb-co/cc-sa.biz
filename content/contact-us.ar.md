@@ -10,7 +10,7 @@ building_number: 8714
 unit_number: 9
 street: صلاح الدين الايوبي - الضباط
 city: الرياض
-zip_code: ۱۲٦۲٦ - ۲۸۱٦
+zip_code: 12623 - 4399
 po_box: ١٤٦٠٠
 work_hours: يمكنك زيارتنا من السبت الى الخميس بين ٩ صباحاً و ٥:٣٠ مساء
 
