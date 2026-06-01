@@ -13,12 +13,12 @@ $( document ).ready(function() {
   });
 
   try {
-    var mymap = L.map("google-map").setView([24.66812, 46.70752], 15);
+    var mymap = L.map("google-map").setView([24.689147, 46.723560], 15);
     mymap.scrollWheelZoom.disable();
 
     var mapLabel = document.getElementById('google-map')
       .getAttribute('data-map-label');
-    var marker = L.marker([24.66812, 46.70752]).addTo(mymap);
+    var marker = L.marker([24.689147, 46.723560]).addTo(mymap);
     marker.bindPopup(mapLabel).openPopup();
 
     var apiUrl = "https://api.mapbox.com/styles/v1";
